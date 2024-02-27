@@ -1,0 +1,21 @@
+.award {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.awardDesc {
+  text-align: start;
+  padding: 0 2rem;
+}
+
+.awardImg {
+  width: 32vw;
+}
+.awardImgRec {
+  width: 65vw;
+}
+
+.achieveImg {
+  width: 70vw;
+}
