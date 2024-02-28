@@ -3,6 +3,7 @@
 }
 
 .links {
+  margin: 0;
   background-color: red;
   color: white;
   display: flex;
@@ -27,4 +28,28 @@
 
 .segments > li:first-child {
   border: none;
+}
+
+.phone {
+  border-radius: 100%;
+  color: red;
+  background-color: white;
+  padding: 4px;
+  font-size: 12px !important;
+}
+
+.linkIcon {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+/* Small Screen */
+@media screen and (max-device-width: 420px) {
+  .links {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+
+    list-style-type: none;
+  }
 }

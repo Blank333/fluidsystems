@@ -10,12 +10,38 @@
 }
 
 .awardImg {
-  width: 32vw;
+  width: 30vw;
 }
 .awardImgRec {
-  width: 65vw;
+  width: 64vw;
 }
 
 .achieveImg {
   width: 70vw;
+}
+
+/* Medium Screen */
+@media screen and (max-device-width: 810px) {
+  .awardImg {
+    width: 40vw;
+    height: 50vh;
+  }
+  .awardImgRec {
+    width: 50vw;
+  }
+}
+
+/* Small Screen */
+@media screen and (max-device-width: 440px) {
+  .award {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .awardImg {
+    width: 80vw;
+    height: auto;
+  }
+  .awardImgRec {
+    width: 80vw;
+  }
 }

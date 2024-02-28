@@ -2,12 +2,14 @@
   width: 30vw;
 }
 
+/* Medium Screen */
 @media screen and (max-device-width: 810px) {
   .logo {
     width: 50vw;
   }
 }
 
+/* Small Screen */
 @media screen and (max-device-width: 420px) {
   .logo {
     width: 70vw;

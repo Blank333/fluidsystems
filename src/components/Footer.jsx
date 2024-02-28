@@ -1,4 +1,7 @@
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -26,16 +29,20 @@ function Footer() {
       </ul>
       <ul className='links'>
         <li>
+          <FontAwesomeIcon icon={faPhone} className='phone linkIcon' />
           Toll Free <strong>1800 200 1234</strong>
         </li>
         <li>
+          <FontAwesomeIcon icon={faFacebook} className='linkIcon ' />
           <a href='https://www.facebook.com/cripumps'>www.facebook.com/cripumps</a>
         </li>
         <li>
+          <FontAwesomeIcon icon={faGlobe} className='linkIcon' />
           <a href='https://www.crigroups.com'>www.crigroups.com</a>
         </li>
       </ul>
     </footer>
   );
 }
+
 export default Footer;
